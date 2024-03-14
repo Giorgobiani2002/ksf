@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: beige;
+  font-family: "DM Serif Display", serif;
+}
+html {
+  font-size: 10px;
+}
+.card1 {
+  width: 36rem;
+  height: 53rem;
+  border-radius: 3.6rem;
+  background-color: aliceblue;
+  margin: 4rem;
+  font-family: "Open Sans", sans-serif;
+}
+.hot {
+    margin-left: 1rem;
+}
+.paragraph {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  color: rgba(110, 121, 140, 1);
+  height: 7.5rem;
+  width: 31.2rem;
+  margin-top: 2.4rem;
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
+}
+.card1-text {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
+}
+.card1-text h2 {
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 2.5rem;
+  color: rgba(8, 31, 50, 1);
+}
+
+.card1-text2 {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: rgba(165, 173, 187, 1);
+  display: flex;
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
+  justify-content: space-between;
+  margin-top: 2.4rem;
+}
+.last-section {
+  display: flex;
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
+  margin-top: 4.1rem;
+  align-items: center;
+}
+.new-price {
+  color: rgba(8, 31, 50, 1);
+  font-size: 2.8rem;
+  line-height: 2.5rem;
+  margin-left: 2.4rem;
+}
+.old-price {
+  color: rgba(248, 89, 59, 1);
+  font-size: 2rem;
+  line-height: 2.5rem;
+  text-decoration: line-through;
+  margin-left: 0.8rem;
+}
+button {
+  width: 11.4rem;
+  height: 4.4rem;
+  background-color: rgba(46, 204, 113, 1);
+  border: none;
+  border-radius: 5px;
+  margin-left: 3rem;
+}
+.wheat {
+    margin-left: 1rem;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info {
+    position:relative;
+    top: -20rem;
+    left: 30rem;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    width: 3.2rem;
+    
+}
